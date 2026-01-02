@@ -14,3 +14,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-01-01 21:35] - refactor(worker): convert polling loop to event-driven task queue
 - Subscribed to job channel instead of spinning CPU in sleep loop.
+
+## [2026-01-02 19:09] - test(integration): add mock server tests for downstream bridge endpoints
+- Simulated external target responses to verify error handling logic.
