@@ -17,3 +17,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-01-02 19:09] - test(integration): add mock server tests for downstream bridge endpoints
 - Simulated external target responses to verify error handling logic.
+
+## [2026-01-02 22:09] - feat(metrics): add Prometheus exporter for scraper throughput
+- Exposed counters for total requests, success rate, and average latency.
