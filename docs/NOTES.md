@@ -20,3 +20,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-01-02 22:09] - feat(metrics): add Prometheus exporter for scraper throughput
 - Exposed counters for total requests, success rate, and average latency.
+
+## [2026-01-05 19:36] - feat(metrics): add Prometheus exporter for scraper throughput
+- Exposed counters for total requests, success rate, and average latency.
