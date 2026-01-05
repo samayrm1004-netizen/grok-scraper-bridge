@@ -23,3 +23,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-01-05 19:36] - feat(metrics): add Prometheus exporter for scraper throughput
 - Exposed counters for total requests, success rate, and average latency.
+
+## [2026-01-05 22:35] - refactor(bridge): standardize response schema for raw and parsed payloads
+- Unified output into typed dictionary with status, timing, and content.
