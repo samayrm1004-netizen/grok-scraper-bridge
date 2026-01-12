@@ -26,3 +26,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-01-05 22:35] - refactor(bridge): standardize response schema for raw and parsed payloads
 - Unified output into typed dictionary with status, timing, and content.
+
+## [2026-01-12 20:02] - perf(extract): accelerate DOM queries using lxml xpath parser
+- Replaced slow regex parsing with compiled XPath expressions for 5x speed.
