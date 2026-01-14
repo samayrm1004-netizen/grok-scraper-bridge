@@ -32,3 +32,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-01-14 18:43] - refactor(bridge): standardize response schema for raw and parsed payloads
 - Unified output into typed dictionary with status, timing, and content.
+
+## [2026-01-14 22:00] - feat(cache): add Redis caching layer for frequently requested endpoints
+- Cached responses with configurable 1-hour TTL to reduce outbound bandwidth.
