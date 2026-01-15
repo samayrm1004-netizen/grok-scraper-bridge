@@ -38,3 +38,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-01-15 14:35] - perf(concurrency): balance task distribution across worker subprocesses
 - Eliminated thread contention under heavy burst traffic.
+
+## [2026-01-15 18:29] - fix(cookie): preserve session cookies across multi-step navigation
+- Exported and reinjected storage state during chained requests.
