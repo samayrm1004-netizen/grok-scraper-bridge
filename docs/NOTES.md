@@ -35,3 +35,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-01-14 22:00] - feat(cache): add Redis caching layer for frequently requested endpoints
 - Cached responses with configurable 1-hour TTL to reduce outbound bandwidth.
+
+## [2026-01-15 14:35] - perf(concurrency): balance task distribution across worker subprocesses
+- Eliminated thread contention under heavy burst traffic.
