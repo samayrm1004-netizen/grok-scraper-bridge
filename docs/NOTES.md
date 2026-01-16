@@ -41,3 +41,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-01-15 18:29] - fix(cookie): preserve session cookies across multi-step navigation
 - Exported and reinjected storage state during chained requests.
+
+## [2026-01-16 16:01] - chore: update requirements.txt with pinned dependency versions
+- Locked production versions for urllib3, playwright, and pydantic.
