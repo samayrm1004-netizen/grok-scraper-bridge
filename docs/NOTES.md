@@ -44,3 +44,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-01-16 16:01] - chore: update requirements.txt with pinned dependency versions
 - Locked production versions for urllib3, playwright, and pydantic.
+
+## [2026-01-16 18:31] - perf(concurrency): balance task distribution across worker subprocesses
+- Eliminated thread contention under heavy burst traffic.
