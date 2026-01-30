@@ -47,3 +47,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-01-16 18:31] - perf(concurrency): balance task distribution across worker subprocesses
 - Eliminated thread contention under heavy burst traffic.
+
+## [2026-01-30 17:57] - perf(concurrency): balance task distribution across worker subprocesses
+- Eliminated thread contention under heavy burst traffic.
