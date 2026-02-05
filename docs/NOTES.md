@@ -59,3 +59,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-02-02 16:47] - perf(concurrency): balance task distribution across worker subprocesses
 - Eliminated thread contention under heavy burst traffic.
+
+## [2026-02-05 13:28] - feat(metrics): add Prometheus exporter for scraper throughput
+- Exposed counters for total requests, success rate, and average latency.
