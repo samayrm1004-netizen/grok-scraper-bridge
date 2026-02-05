@@ -62,3 +62,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-02-05 13:28] - feat(metrics): add Prometheus exporter for scraper throughput
 - Exposed counters for total requests, success rate, and average latency.
+
+## [2026-02-05 21:21] - feat(engine): implement async browser session pool manager
+- Maintained warmed browser worker pool for instantaneous task assignment.
