@@ -65,3 +65,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-02-05 21:21] - feat(engine): implement async browser session pool manager
 - Maintained warmed browser worker pool for instantaneous task assignment.
+
+## [2026-02-10 12:52] - refactor(worker): convert polling loop to event-driven task queue
+- Subscribed to job channel instead of spinning CPU in sleep loop.
