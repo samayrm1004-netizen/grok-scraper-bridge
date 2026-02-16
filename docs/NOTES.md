@@ -68,3 +68,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-02-10 12:52] - refactor(worker): convert polling loop to event-driven task queue
 - Subscribed to job channel instead of spinning CPU in sleep loop.
+
+## [2026-02-16 10:36] - docs(api): document authentication headers and rate-limiting limits
+- Detailed Bearer token format and max requests per minute in docs.
