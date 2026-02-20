@@ -77,3 +77,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-02-16 15:48] - refactor(bridge): standardize response schema for raw and parsed payloads
 - Unified output into typed dictionary with status, timing, and content.
+
+## [2026-02-20 10:22] - docs(api): document authentication headers and rate-limiting limits
+- Detailed Bearer token format and max requests per minute in docs.
