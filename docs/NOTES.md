@@ -86,3 +86,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-02-26 11:17] - fix(cookie): preserve session cookies across multi-step navigation
 - Exported and reinjected storage state during chained requests.
+
+## [2026-02-26 12:36] - fix(cookie): preserve session cookies across multi-step navigation
+- Exported and reinjected storage state during chained requests.
