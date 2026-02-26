@@ -83,3 +83,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-02-20 11:08] - refactor(worker): convert polling loop to event-driven task queue
 - Subscribed to job channel instead of spinning CPU in sleep loop.
+
+## [2026-02-26 11:17] - fix(cookie): preserve session cookies across multi-step navigation
+- Exported and reinjected storage state during chained requests.
