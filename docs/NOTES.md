@@ -104,3 +104,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-03-06 14:43] - test(integration): add mock server tests for downstream bridge endpoints
 - Simulated external target responses to verify error handling logic.
+
+## [2026-03-06 19:51] - docs(troubleshooting): add guide for resolving cloudflare challenge loops
+- Outlined headless flag overrides and viewport emulation tips.
