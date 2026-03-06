@@ -101,3 +101,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-03-06 13:43] - perf(concurrency): balance task distribution across worker subprocesses
 - Eliminated thread contention under heavy burst traffic.
+
+## [2026-03-06 14:43] - test(integration): add mock server tests for downstream bridge endpoints
+- Simulated external target responses to verify error handling logic.
