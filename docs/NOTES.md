@@ -107,3 +107,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-03-06 19:51] - docs(troubleshooting): add guide for resolving cloudflare challenge loops
 - Outlined headless flag overrides and viewport emulation tips.
+
+## [2026-03-16 17:15] - fix(cookie): preserve session cookies across multi-step navigation
+- Exported and reinjected storage state during chained requests.
