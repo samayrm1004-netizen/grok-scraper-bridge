@@ -110,3 +110,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-03-16 17:15] - fix(cookie): preserve session cookies across multi-step navigation
 - Exported and reinjected storage state during chained requests.
+
+## [2026-03-20 14:15] - feat(engine): implement async browser session pool manager
+- Maintained warmed browser worker pool for instantaneous task assignment.
