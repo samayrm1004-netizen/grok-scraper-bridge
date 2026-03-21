@@ -113,3 +113,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-03-20 14:15] - feat(engine): implement async browser session pool manager
 - Maintained warmed browser worker pool for instantaneous task assignment.
+
+## [2026-03-21 21:49] - feat(cache): add Redis caching layer for frequently requested endpoints
+- Cached responses with configurable 1-hour TTL to reduce outbound bandwidth.
