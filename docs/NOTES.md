@@ -119,3 +119,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-04-02 10:35] - feat(cache): add Redis caching layer for frequently requested endpoints
 - Cached responses with configurable 1-hour TTL to reduce outbound bandwidth.
+
+## [2026-04-02 12:12] - docs(api): document authentication headers and rate-limiting limits
+- Detailed Bearer token format and max requests per minute in docs.
