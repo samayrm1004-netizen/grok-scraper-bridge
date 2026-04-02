@@ -125,3 +125,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-04-02 19:42] - docs(troubleshooting): add guide for resolving cloudflare challenge loops
 - Outlined headless flag overrides and viewport emulation tips.
+
+## [2026-04-02 22:05] - docs(api): document authentication headers and rate-limiting limits
+- Detailed Bearer token format and max requests per minute in docs.
