@@ -116,3 +116,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-03-21 21:49] - feat(cache): add Redis caching layer for frequently requested endpoints
 - Cached responses with configurable 1-hour TTL to reduce outbound bandwidth.
+
+## [2026-04-02 10:35] - feat(cache): add Redis caching layer for frequently requested endpoints
+- Cached responses with configurable 1-hour TTL to reduce outbound bandwidth.
