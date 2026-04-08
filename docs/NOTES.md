@@ -128,3 +128,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-04-02 22:05] - docs(api): document authentication headers and rate-limiting limits
 - Detailed Bearer token format and max requests per minute in docs.
+
+## [2026-04-08 10:05] - fix(proxy): automatically rotate proxy credentials on HTTP 429
+- Detected rate-limiting headers and dispatched backup proxy seamlessly.
