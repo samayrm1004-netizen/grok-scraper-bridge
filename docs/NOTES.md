@@ -137,3 +137,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-04-16 14:28] - perf(concurrency): balance task distribution across worker subprocesses
 - Eliminated thread contention under heavy burst traffic.
+
+## [2026-04-20 12:13] - perf(extract): accelerate DOM queries using lxml xpath parser
+- Replaced slow regex parsing with compiled XPath expressions for 5x speed.
