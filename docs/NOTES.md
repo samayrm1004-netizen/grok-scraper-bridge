@@ -155,3 +155,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-05-26 16:00] - refactor(bridge): standardize response schema for raw and parsed payloads
 - Unified output into typed dictionary with status, timing, and content.
+
+## [2026-05-26 16:36] - docs(troubleshooting): add guide for resolving cloudflare challenge loops
+- Outlined headless flag overrides and viewport emulation tips.
