@@ -158,3 +158,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-05-26 16:36] - docs(troubleshooting): add guide for resolving cloudflare challenge loops
 - Outlined headless flag overrides and viewport emulation tips.
+
+## [2026-05-28 17:15] - perf(extract): accelerate DOM queries using lxml xpath parser
+- Replaced slow regex parsing with compiled XPath expressions for 5x speed.
