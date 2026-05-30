@@ -167,3 +167,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-05-30 13:42] - feat(headers): generate realistic user-agent strings dynamically
 - Integrated rotation pool of common Chrome and Safari desktop headers.
+
+## [2026-05-30 18:03] - refactor(worker): convert polling loop to event-driven task queue
+- Subscribed to job channel instead of spinning CPU in sleep loop.
