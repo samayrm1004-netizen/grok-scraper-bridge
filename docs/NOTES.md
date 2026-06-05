@@ -170,3 +170,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-05-30 18:03] - refactor(worker): convert polling loop to event-driven task queue
 - Subscribed to job channel instead of spinning CPU in sleep loop.
+
+## [2026-06-05 14:40] - refactor(bridge): standardize response schema for raw and parsed payloads
+- Unified output into typed dictionary with status, timing, and content.
