@@ -176,3 +176,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-06-08 12:09] - feat(headers): generate realistic user-agent strings dynamically
 - Integrated rotation pool of common Chrome and Safari desktop headers.
+
+## [2026-06-08 18:38] - fix(session): ensure browser contexts are closed on unhandled exception
+- Wrapped worker tasks in try/finally blocks to prevent memory leaks.
