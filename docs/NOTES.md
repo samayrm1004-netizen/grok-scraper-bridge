@@ -179,3 +179,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-06-08 18:38] - fix(session): ensure browser contexts are closed on unhandled exception
 - Wrapped worker tasks in try/finally blocks to prevent memory leaks.
+
+## [2026-06-17 14:00] - feat(engine): implement async browser session pool manager
+- Maintained warmed browser worker pool for instantaneous task assignment.
