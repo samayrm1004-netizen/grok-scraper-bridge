@@ -182,3 +182,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-06-17 14:00] - feat(engine): implement async browser session pool manager
 - Maintained warmed browser worker pool for instantaneous task assignment.
+
+## [2026-06-17 22:57] - fix(proxy): automatically rotate proxy credentials on HTTP 429
+- Detected rate-limiting headers and dispatched backup proxy seamlessly.
