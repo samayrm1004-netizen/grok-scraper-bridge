@@ -185,3 +185,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-06-17 22:57] - fix(proxy): automatically rotate proxy credentials on HTTP 429
 - Detected rate-limiting headers and dispatched backup proxy seamlessly.
+
+## [2026-06-18 15:52] - perf(extract): accelerate DOM queries using lxml xpath parser
+- Replaced slow regex parsing with compiled XPath expressions for 5x speed.
