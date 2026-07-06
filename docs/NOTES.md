@@ -188,3 +188,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-06-18 15:52] - perf(extract): accelerate DOM queries using lxml xpath parser
 - Replaced slow regex parsing with compiled XPath expressions for 5x speed.
+
+## [2026-07-06 13:38] - feat(headers): generate realistic user-agent strings dynamically
+- Integrated rotation pool of common Chrome and Safari desktop headers.
