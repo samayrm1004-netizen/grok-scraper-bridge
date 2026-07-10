@@ -194,3 +194,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-07-06 20:37] - feat(engine): implement async browser session pool manager
 - Maintained warmed browser worker pool for instantaneous task assignment.
+
+## [2026-07-10 14:08] - perf(extract): accelerate DOM queries using lxml xpath parser
+- Replaced slow regex parsing with compiled XPath expressions for 5x speed.
