@@ -197,3 +197,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-07-10 14:08] - perf(extract): accelerate DOM queries using lxml xpath parser
 - Replaced slow regex parsing with compiled XPath expressions for 5x speed.
+
+## [2026-07-23 13:02] - refactor(worker): convert polling loop to event-driven task queue
+- Subscribed to job channel instead of spinning CPU in sleep loop.
