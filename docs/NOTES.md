@@ -200,3 +200,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-07-23 13:02] - refactor(worker): convert polling loop to event-driven task queue
 - Subscribed to job channel instead of spinning CPU in sleep loop.
+
+## [2026-07-27 19:57] - fix(proxy): automatically rotate proxy credentials on HTTP 429
+- Detected rate-limiting headers and dispatched backup proxy seamlessly.
