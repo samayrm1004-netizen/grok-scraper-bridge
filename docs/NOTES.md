@@ -203,3 +203,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-07-27 19:57] - fix(proxy): automatically rotate proxy credentials on HTTP 429
 - Detected rate-limiting headers and dispatched backup proxy seamlessly.
+
+## [2026-08-04 14:56] - fix(proxy): automatically rotate proxy credentials on HTTP 429
+- Detected rate-limiting headers and dispatched backup proxy seamlessly.
