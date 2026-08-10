@@ -209,3 +209,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-08-04 21:53] - perf(concurrency): balance task distribution across worker subprocesses
 - Eliminated thread contention under heavy burst traffic.
+
+## [2026-08-10 22:25] - refactor(bridge): standardize response schema for raw and parsed payloads
+- Unified output into typed dictionary with status, timing, and content.
