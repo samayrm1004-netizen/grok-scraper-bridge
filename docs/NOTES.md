@@ -212,3 +212,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-08-10 22:25] - refactor(bridge): standardize response schema for raw and parsed payloads
 - Unified output into typed dictionary with status, timing, and content.
+
+## [2026-08-19 10:12] - chore: update requirements.txt with pinned dependency versions
+- Locked production versions for urllib3, playwright, and pydantic.
