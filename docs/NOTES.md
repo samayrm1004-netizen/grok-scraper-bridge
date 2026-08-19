@@ -218,3 +218,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-08-19 17:05] - test(integration): add mock server tests for downstream bridge endpoints
 - Simulated external target responses to verify error handling logic.
+
+## [2026-08-19 19:21] - refactor(bridge): standardize response schema for raw and parsed payloads
+- Unified output into typed dictionary with status, timing, and content.
