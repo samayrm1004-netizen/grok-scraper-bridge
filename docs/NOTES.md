@@ -221,3 +221,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-08-19 19:21] - refactor(bridge): standardize response schema for raw and parsed payloads
 - Unified output into typed dictionary with status, timing, and content.
+
+## [2026-08-20 13:15] - fix(cookie): preserve session cookies across multi-step navigation
+- Exported and reinjected storage state during chained requests.
