@@ -233,3 +233,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-08-25 12:01] - refactor(worker): convert polling loop to event-driven task queue
 - Subscribed to job channel instead of spinning CPU in sleep loop.
+
+## [2026-08-25 20:05] - feat(cache): add Redis caching layer for frequently requested endpoints
+- Cached responses with configurable 1-hour TTL to reduce outbound bandwidth.
