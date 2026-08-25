@@ -230,3 +230,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-08-24 16:52] - fix(cookie): preserve session cookies across multi-step navigation
 - Exported and reinjected storage state during chained requests.
+
+## [2026-08-25 12:01] - refactor(worker): convert polling loop to event-driven task queue
+- Subscribed to job channel instead of spinning CPU in sleep loop.
