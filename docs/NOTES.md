@@ -242,3 +242,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-09-02 15:36] - refactor(worker): convert polling loop to event-driven task queue
 - Subscribed to job channel instead of spinning CPU in sleep loop.
+
+## [2026-09-02 20:51] - feat(metrics): add Prometheus exporter for scraper throughput
+- Exposed counters for total requests, success rate, and average latency.
