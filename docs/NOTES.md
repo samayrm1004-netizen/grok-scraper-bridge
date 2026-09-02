@@ -239,3 +239,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-08-26 15:20] - perf(concurrency): balance task distribution across worker subprocesses
 - Eliminated thread contention under heavy burst traffic.
+
+## [2026-09-02 15:36] - refactor(worker): convert polling loop to event-driven task queue
+- Subscribed to job channel instead of spinning CPU in sleep loop.
