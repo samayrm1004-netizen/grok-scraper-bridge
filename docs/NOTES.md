@@ -245,3 +245,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-09-02 20:51] - feat(metrics): add Prometheus exporter for scraper throughput
 - Exposed counters for total requests, success rate, and average latency.
+
+## [2026-09-07 17:08] - chore: update requirements.txt with pinned dependency versions
+- Locked production versions for urllib3, playwright, and pydantic.
