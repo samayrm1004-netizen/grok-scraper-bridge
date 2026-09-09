@@ -248,3 +248,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-09-07 17:08] - chore: update requirements.txt with pinned dependency versions
 - Locked production versions for urllib3, playwright, and pydantic.
+
+## [2026-09-09 12:23] - test(integration): add mock server tests for downstream bridge endpoints
+- Simulated external target responses to verify error handling logic.
