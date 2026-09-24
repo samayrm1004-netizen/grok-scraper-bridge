@@ -260,3 +260,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-09-16 16:44] - perf(concurrency): balance task distribution across worker subprocesses
 - Eliminated thread contention under heavy burst traffic.
+
+## [2026-09-24 10:20] - feat(headers): generate realistic user-agent strings dynamically
+- Integrated rotation pool of common Chrome and Safari desktop headers.
