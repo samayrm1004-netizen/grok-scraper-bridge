@@ -266,3 +266,6 @@ Headless browser bridge and scraping proxy architecture notes.
 
 ## [2026-09-24 13:03] - feat(engine): implement async browser session pool manager
 - Maintained warmed browser worker pool for instantaneous task assignment.
+
+## [2026-09-24 22:26] - docs(troubleshooting): add guide for resolving cloudflare challenge loops
+- Outlined headless flag overrides and viewport emulation tips.
